@@ -1,0 +1,24 @@
+[Service]
+Environment=SSGBERK_SERVER_HOST=127.0.0.1
+Environment=SSGBERK_CLIENT_HOST=127.0.0.1
+Environment=SSGBERK_REPOPARENT=/home/matheusrv
+Environment=SSGBERK_REPONAME=StaticSiteGeneratorBenchmarks
+Environment=SSGBERK_REPOURI=https://github.com/MatheusRV/StaticSiteGeneratorBenchmarks.git
+Environment=SSGBERK_REPOBRANCH=master
+Environment=SSGBERK_UPLOAD_URI=http://localhost/changeme
+Environment=SSGBERK_ENVIRONMENT=ChangeMe
+Environment="SSGBERK_RUN_NAME=Continuous Benchmarking Run %%Y-%%m-%%d %%H:%%M:%%S"
+Environment=HOME=/home/matheusrv
+Environment=LANG=en_US.UTF-8
+User=matheusrv
+Group=matheusrv
+WorkingDirectory=/home/matheusrv
+LimitNOFILE=1048576
+LimitNPROC=1048576
+UMask=0002
+ExecStart=/home/matheusrv/ssgberk-startup.sh
+ExecStop=/home/matheusrv/ssgberk-shutdown.sh
+ExecStopPost=/home/matheusrv/ssgberk-shutdown.sh
+
+[Install]
+WantedBy=multi-user.target

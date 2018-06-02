@@ -1,0 +1,22 @@
+{
+  "generator": "jekyll",
+  "tests": [{
+    "default": {
+      "content_url": "/_posts",
+      "content_header": "---\nlayout: post\ntitle: 'Content Post'\n---",
+      "content_type": "markdown",
+      "build_command": "jekyll build",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Jekyll",
+      "language": "Ruby",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Jekyll",
+      "notes": "",
+      "versus": "ruby"
+    }
+  }]
+}

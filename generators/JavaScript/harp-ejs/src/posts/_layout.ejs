@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <%- partial( "../_partials/head" ) %>
+  <body>
+    <%- partial( "../_partials/github" ) %>
+    <%- partial( "../_partials/header" ) %>
+
+    <div class="post">
+
+      <header class="post-header">
+        <h1 class="post-title"><%- page.title %></h1>
+        <p class="post-meta"><%- page.date %></p>
+      </header>
+
+      <article class="post-main">
+        <%- yield %>
+      </article>
+
+    </div>
+
+    <div>
+        <b>More News 'n' Updates</b>
+        <ul>
+          <% for( var slug in public.posts._data) {
+               var post = public.posts._data[slug];
+               var page = post.page;
+           %>
+            <li><a href="<%- site.path %>/posts/<%- slug %>"><%- page.title %></a></li>
+          <% } %>
+        </ul>
+    </div>
+
+    <%- partial( "../_partials/footer" ) %>
+  </body>
+</html>

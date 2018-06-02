@@ -1,0 +1,21 @@
+{
+  "generator": "harp-jade",
+  "tests": [{
+    "default": {
+      "content_url": "/posts/",
+      "content_header": "",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Harp",
+      "language": "JavaScript",
+      "frontend": "Jade",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Harp + Jade",
+      "notes": "",
+      "versus": "javascript"
+    }
+  }]
+}

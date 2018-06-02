@@ -1,0 +1,11 @@
+
+<% render '/default.*' do %>
+
+<div class="page">
+
+  <h1><%= @item[:title] %></h1>
+  <%= yield %>
+
+</div>
+
+<% end %>

@@ -1,0 +1,21 @@
+{
+  "generator": "harp-ejs",
+  "tests": [{
+    "default": {
+      "content_url": "/posts",
+      "content_header": "",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Harp",
+      "language": "JavaScript",
+      "frontend": "EJS",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Harp + EJS",
+      "notes": "",
+      "versus": "javascript"
+    }
+  }]
+}

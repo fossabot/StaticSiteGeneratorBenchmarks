@@ -1,0 +1,21 @@
+{
+  "generator": "nikola-mako",
+  "tests": [{
+    "default": {
+      "content_url": "src/posts",
+      "content_header": "---\nlayout: post\ntitle: 'Content Post'\n---",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Nikola",
+      "language": "Python",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Nikola + Mako",
+      "notes": "",
+      "versus": "python"
+    }
+  }]
+}

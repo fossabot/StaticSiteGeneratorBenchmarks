@@ -1,0 +1,21 @@
+{
+  "generator": "nanoc",
+  "tests": [{
+    "default": {
+      "content_url": "/_posts",
+      "content_header": "---\nlayout: post\ntitle: 'Content Post'\n---",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "nanoc",
+      "language": "Ruby",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "nanoc",
+      "notes": "",
+      "versus": "ruby"
+    }
+  }]
+}

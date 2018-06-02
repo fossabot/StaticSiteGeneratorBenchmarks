@@ -1,0 +1,22 @@
+{
+  "generator": "hugo",
+  "tests": [{
+    "default": {
+      "buildtext_url": "/buildtext",
+      "content_url": "/content/post",
+      "content_header": "+++\ndate  = '2015-08-25T19:47:35+01:00'\ntitle = 'Content Post'\n+++",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Hugo",
+      "language": "Go",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Hugo",
+      "notes": "",
+      "versus": "go"
+      }
+  }]
+}

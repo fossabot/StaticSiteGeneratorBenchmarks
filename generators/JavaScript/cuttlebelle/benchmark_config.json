@@ -1,0 +1,22 @@
+{
+  "generator": "cuttlebelle",
+  "tests": [{
+    "default": {
+      "content_url": "/content/posts",
+      "content_header": "---\nlayout: post\n---",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "database": "MySQL",
+      "generator": "Cuttlebelle",
+      "language": "JavaScript",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Cuttlebelle",
+      "notes": "",
+      "versus": "javascript"
+    }
+  }]
+}

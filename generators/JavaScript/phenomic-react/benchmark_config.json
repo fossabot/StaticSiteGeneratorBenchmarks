@@ -1,0 +1,21 @@
+{
+  "generator": "metalsmith-nunjucks",
+  "tests": [{
+    "default": {
+      "content_url": "/_posts",
+      "content_header": "---\nlayout: post\ntitle: 'Content Post'\n---",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Phenomic",
+      "language": "JavaScript",
+      "frontend": "None",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Phenomic + React",
+      "notes": "",
+      "versus": "javascript"
+    }
+  }]
+}

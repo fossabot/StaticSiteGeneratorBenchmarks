@@ -1,0 +1,21 @@
+{
+  "generator": "gatsby",
+  "tests": [{
+    "default": {
+      "content_url": "src/pages/posts",
+      "content_header": "---\ntitle:  'Content Post'\ndate:   '2014-12-12'\n---",
+      "content_type": "markdown",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Micro",
+      "generator": "Gatsby",
+      "language": "JavaScript",
+      "frontend": "React",
+      "webserver": "None",
+      "os": "Linux",
+      "display_name": "Gatsby",
+      "notes": "",
+      "versus": "javascript"
+    }
+  }]
+}

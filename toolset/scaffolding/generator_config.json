@@ -1,0 +1,23 @@
+{
+  "generator": "$NAME",
+  "tests": [
+    {
+      "default": {
+        "content_url": "$CONTENT_URL",
+        "content_header": "$CONTENT_HEADER",
+        "content_type": "$CONTENT_TYPE",
+        "port": 8080,
+        "approach": "$APPROACH",
+        "classification": "$CLASSIFICATION",
+        "generator": "$GENERATOR",
+        "language": "$LANGUAGE",
+        "frontend": "$FRONTEND",
+        "webserver": "$WEBSERVER",
+        "os": "Linux",
+        "display_name": "$DISPLAY_NAME",
+        "notes": "",
+        "versus": "$VERSUS"
+      }
+    }
+  ]
+}
