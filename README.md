@@ -93,6 +93,7 @@ The community has consistently helped in making these tests better, and we welco
 # Português do Brasil
 # Bem vindo ao [Static Site Generator Benchmarks (SSGBerk)]
 [![Build Status](https://travis-ci.org/MatheusRV/StaticSiteGeneratorBenchmarks.svg?branch=master)](https://travis-ci.org/MatheusRV/StaticSiteGeneratorBenchmarks)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMatheusRV%2FStaticSiteGeneratorBenchmarks.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMatheusRV%2FStaticSiteGeneratorBenchmarks?ref=badge_shield)
 
 ## O que é o Static Site Generator (SSG)?
 Uma página web estática (às vezes chamado de uma página flat / página estacionária) é uma página web é entregue ao usuário que exatamente como armazenadas, em contraste com páginas web dinâmicas são geradas pelo qual um aplicativo web.
@@ -178,3 +179,7 @@ Resultados da avaliação comparativa corridas contínuas estão disponíveis em
 ## Contribuindo
 
 A comunidade tem ajudado consistentemente a melhorar esses testes e aceitamos todas e quaisquer mudanças. Revisar nossas práticas e diretrizes de contribuição ajudará a manter todos na mesma página. O [Guia de contribuição] (https://github.com/MatheusRV/StaticSiteGeneratorBenchmarks/blob/master/.github/CONTRIBUTING.md) pode ser encontrado no [documentação SSGBERK] (https://github.com/MatheusRV/StaticSiteGeneratorBenchmarks/wiki/).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMatheusRV%2FStaticSiteGeneratorBenchmarks.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMatheusRV%2FStaticSiteGeneratorBenchmarks?ref=badge_large)
